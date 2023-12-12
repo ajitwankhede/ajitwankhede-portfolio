@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website - Ajit W</title>
+    <title>Ajit Wankhede | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/63e44d7234.js" crossorigin="anonymous"></script>
 </head>
@@ -16,16 +16,16 @@
             <ul id="sidemenu">
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Projects</a></li>
+                <li><a href="#portfolio">Recommendations</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
             </ul>
             <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class = "header-text">
-            <p>Ai/ML Engineer</p>
-            <h1>Hi am <span>Ajit</span><br>am from India</h1>
+            <h1>Hi I'm <br><span>Ajit</span> Wankhede</h1>
+            <br><p>Ai/ML Engineer</p>
         </div>
     </div>
 </div>
@@ -38,13 +38,7 @@
             </div>
             <div class="about-col-2">
                 <h1 class="sub-title">About Me</h1>
-                <p>Lorem ipsum dolor sit amet, 
-                consectetur adipiscing elit. 
-                Sed non risus. Suspendisse lectus tortor, 
-                dignissim sit amet, adipiscing nec, ultricies sed, dolor. 
-                Cras elementum ultrices diam. Maecenas ligula massa, varius a,
-                semper congue, euismod non,
-                mi. Proin porttitor, orci nec nonummy molestie</p>
+                <p>I completed my Master’s degree in Data Science from Fergusson College, Pune, in 2022. I am deeply interested in exploring and expanding my knowledge in Artificial Intelligence, Machine Learning, Computer Vision, and Natural Language Processing.</p>
                 <div class="tab-titles">
                     <p class ="tab-links active-link" onclick="opentab('skills')">Skills</p>
                     <p class ="tab-links" onclick="opentab('experiance')">Experiance</p>
@@ -52,23 +46,24 @@
                 </div>   
                 <div class="tab-contents active-tab", id="skills">
                     <ul>
-                        <li><span>Ai?ML</span><br>Deep learning</li>
-                        <li><span>Python</span><br>Api development</li>
-                        <li><span>SQL</span><br>DBMS arch</li>
+                        <li><span>Programming Skill</span><br>Python<br>SQL (DBMS)<br>R</li>
+                        <li><span>Cloud Computing</span><br>AWS, GCP</li>
+                        <li><span>Tech Skill</span><br>Docker, MLOps<br>Git/GitHub, Linux<br></li>
+                        <li><span>Expertise</span><br>Artificial Intelligence, Machine learning, Computer vision<br>Deep learning, Mathematics, Statistics, Data Structure<br>Clinical and agriculture</li>
+                        
                     </ul>
                 </div>
                 <div class="tab-contents", id="experiance">
                     <ul>
-                        <li><span>2023 - Current</span><br>Data science Instructure Pune</li>
-                        <li><span>2023 - 2023</span><br>Ai Intern Pune</li>
-                        <li><span>2020 - 2020</span><br>Data science and Ml Intern Pune</li>
+                        <li><span>2023 - Current</span><br>Data Science Instructor @ Bizpathshala, Pune</li>
+                        <li><span>2023 - 2023</span><br>Ai INTERN @ Venturit consulting services Pvt. Ltd. Pune</li>
+                        <li><span>2020 - 2020</span><br>MACHINE LEARNING INTERN @ Rikaian Technology Pvt. Ltd, Pune</li>
                     </ul>
                 </div>
                 <div class="tab-contents", id="education">
                     <ul>
-                        <li><span>2023</span><br>Mcs Data Science Fergusson Pune</li>
-                        <li><span>2020</span><br>Bsc Physics SP Pune</li>
-                        <li><span>2020</span><br>Add Edu Info</li>
+                        <li><span>2023</span><br>M.Sc. Data Science from Fergusson College, Pune</li>
+                        <li><span>2020</span><br>B.Sc. Physics from S.P. College, Pune</li>
                     </ul>
                 </div>       
             </div>
@@ -76,60 +71,59 @@
     </div>
 </div>
 
-<!-- ------------------services------------ -->
+<!-- ------------------Personal Projects------------ -->
 <div id="services">
     <div class="container">
-        <h1 class="sub-title">My Services</h1>
+        <h1 class="sub-title">Personal Projects</h1>
         <div class="services-list">
             <div>
-                <i class="fa-solid fa-code"></i>
-                <h2>Machine Learning</h2>
-                <p>Sed non risus. Suspendisse lectus tortor, 
-                    dignissim sit amet, </p>
-                <a href="#">Learn more</a>
-            </div>
-            <div>
-                <i class="fa-solid fa-brain"></i>
-                <h2>Ai Project</h2>
-                <p>Sed non risus. Suspendisse lectus tortor, 
-                    dignissim sit amet, </p>
-                <a href="#">Learn more</a>
+                <i class="fa-solid fa-diagram-project"></i>
+                <h2>Computer Vision</h2>
+                <p>A production-level clinical application that follows an end-to-end CI-CD architecture and is 
+                    deployed on the reliable secure AWS cloud platform. The project is designed to revolutionize the 
+                    way chronic kidney disease is diagnosed and treated.</p>
+                <a href="https://github.com/ajitwankhede/DL-project-Chronic-kidney-Classification">Learn more</a>
             </div>
             <div>
                 <i class="fa-solid fa-language"></i>
                 <h2>NLP</h2>
-                <p>Sed non risus. Suspendisse lectus tortor, 
-                    dignissim sit amet, </p>
-                <a href="#">Learn more</a>
+                <p>When it comes to studying a research paper document, it is a very tedious task, and if paper does 
+                    not meet our needs, we end up with waste of time, so here I have developed LLM powered Que-Ans app, answers your question with Ai touch.</p>
+                <a href="https://github.com/ajitwankhede/Research_Paper_Summary_app">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Machine Learning</h2>
+                <p>I use XGBRegressor from XGBoost library to predict future prices of stocks using technical indicator as features.</p>
+                <a href="https://github.com/ajitwankhede/XGBoost_for_stock_prediction">Learn more</a>
             </div>
         </div>
+        <a href="https://github.com/ajitwankhede" class="btn">See more</a>
     </div>
 </div>
 
-<!-- ----------------------Portfolio---------------- -->
+<!-- ----------------------Recommendations---------------- -->
 <div id="portfolio">
     <div class="container">
-        <h1 class="sub-title">My work</h1>
+        <h1 class="sub-title">Recommendations</h1>
         <div class="work-list">
             <div class="work">
                 <img src="Image/work-1.png">
                 <div class="layer">
-                   <h3>Social Media App</h3>
-                   <p>Sed non risus. Suspendisse lectus tortor, 
-                    dignissim sit amet</p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                   <h3>Ai INTERN</h3>
+                   <p>Venturit consulting services Pvt. Ltd. Pune</p>
+                    <a href="https://drive.google.com/file/d/1VnlJv5dQGZL8wSTQfByYx2nR18pBMnBH/view"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="work">
                 <img src="Image/work-2.png">
                 <div class="layer">
-                    <h3>Ai App</h3>
-                    <p>Sed non risus. Suspendisse lectus tortor, 
-                     dignissim sit amet</p>
-                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <h3>MACHINE LEARNING INTERN</h3>
+                    <p>Rikaian Technology Pvt. Ltd, Pune</p>
+                     <a href="https://drive.google.com/file/d/1YXDc65DUnYboYwHBaSO8CX_P_MyPT9E2/view"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                  </div>
             </div>
-            <div class="work">
+            <!-- <div class="work">
                 <img src="Image/work-3.png">
                 <div class="layer">
                     <h3>Ml App</h3>
@@ -137,9 +131,9 @@
                      dignissim sit amet</p>
                      <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                  </div>
-            </div>
+            </div> -->
         </div>
-        <a href="#" class="btn">See more</a>
+        <!-- <a href="#" class="btn">See more</a> -->
     </div>
 </div>
 
@@ -149,15 +143,16 @@
         <div class="row">
             <div class="contact-left">
                 <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fa-solid fa-envelope"></i> contact@email.com</p>
-                <p><i class="fa-solid fa-square-phone"></i> 12345-4556</p>
+                <p><i class="fa-solid fa-envelope"></i> ajitwankhede77@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> (+91) 9284142344</p>
+                <p><i class="fa-solid fa-location-dot"></i></i> Pune, India</p>
                 <div class="social-icons">
                     <a href="https://www.linkedin.com/in/ajitwankhede/"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="https://github.com/ajitwankhede"><i class="fa-brands fa-github"></i></a>
                 </div>
 
                 <!-- -------------------------CV Download-------------- -->
-                <a href="Image/AJIT WANKHEDE RESUME.pdf" download class="btn btn2">Download CV</a>
+                <a href="https://drive.google.com/file/d/1ub3Af_fG_TEZQeOrS3EodMu_xd3q1qok/view?usp=sharing" download class="btn btn2">Download CV</a>
 
             </div>
             <div class="contact-right">
@@ -172,7 +167,7 @@
         </div>
     </div>
     <div class="copyright">
-        <p> Copyright © Ajit.</p>
+        <p> Copyright © Ajit W.</p>
     </div>
 </div>
 

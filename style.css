@@ -88,7 +88,7 @@ nav ul li a:hover::after{
     flex-basis: 60%; 
 }
 .sub-title{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 600;
     color: #fff;
 }
@@ -172,6 +172,20 @@ nav ul li a:hover::after{
 .services-list div:hover{
     background: #ff004f;
     transform: translateY(-10px);
+}
+.btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s ;
+}
+.btn:hover{
+    background: #ff004f;
 }
 /* -------------portfolio----------- */
 #portfolio{
@@ -325,6 +339,12 @@ nav .fa-solid{
     .header-text h1{
         font-size: 30px;
     }
+    /* iNTRO POSITION   */
+    .header-text{
+        margin-top: 120%;
+        
+       }
+
     nav .fa-solid{
         display: block;
         font-size: 25px;
